@@ -21,22 +21,24 @@
     <![endif]-->
 </head>
 
-<body data-spy="scroll" data-target="#my-navbar">
+<body data-spy="scroll" data-target="#navbar-collapse">
      <div id="main" class="container-fluid">
-        <div class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
-            <div class="container-fluid">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=" #navbar-collapse" aria-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
+                        <span class="primary-nav-title">Menu</span>
                     </button>
-                <!--my logo-->
+
+                <!--I just used for remember my logo-->
                     <a class="navbar-brand" href="index.html">
                     <div class="logo">
-                    <img src="images/logo1.png" alt="logo" width="105" height="45">
+                    <img src="images/logo1.png" alt="logo" width="75" height="40">
                     </div></a>
                     <div class="navbar-header">
                     <a class="navbar-brand" href="https://github.com/leexiong21/portfolio"><i class="fa fa-envira" style="color: #c4f1a4;" aria-hidden="true"></i>LEE.M XIONG</a>
@@ -54,14 +56,14 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-question-sign">
                             </span>Interesting Project<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i> gallery</a></li>
+                                <li><a href="#interestingproject"><i class="fa fa-picture-o" aria-hidden="true"></i> gallery</a></li>
                                 <li><a href="#"><i class="fa fa-video-camera" aria-hidden="true"></i> Video</a></li>
                                 <li><a href="#"><i class="fa fa-map" aria-hidden="true"></i> My Country</a></li>
                             </ul>
                         </li>
                     </ul>
                  <div>
-                    <form class="navbar-form navbar-right">
+                    <form class="navbar-form navbar-right"><!-- I Just use this search bar to keep me remember -->
                         <div class="form-group col-lg-0.6">
                             <input type="text" class="form-control" placeholder="Search">
                             <span class="form-group-btn">
@@ -73,10 +75,10 @@
                         <form class="navbar-form navbar-center" >
                          <div class="form-group col-md-0.6">
                              <ul class="list-inline">
-                                 <li><a href="https://github.com/leexiong21/portfolio"><i class="fa fa-github fa-2x" style="color: red;" aria-hidden="true"></i></a></li>
+                                 <li><a href="https://github.com/leexiong21/portfolio"><i class="fa fa-github-square fa-2x" style="color: #fdfffb;" aria-hidden="true"></i></a></li>
                                  <li><a href="https://plus.google.com/collections/featured"><i class="fa fa-google-plus fa-2x" style="color: red;" aria-hidden="true"></i></a></li>
-                                 <li><a href="https://www.youtube.com/watch?v=nj1-yF-CT-U"><i class="fa fa-youtube fa-2x" style="color: red;" aria-hidden="true"></i></a></li>
-                                 <li><a href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x" style="color: red;" aria-hidden="true"></i></a></li>
+                                 <li><a href="https://www.youtube.com/watch?v=nj1-yF-CT-U"><i class="fa fa-youtube-square fa-2x" style="color: red;" aria-hidden="true"></i></a></li>
+                                 <li><a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-2x" style="color: #fdfffb;" aria-hidden="true"></i></a></li>
                              </ul>
                          </div>
                         </form>
@@ -84,41 +86,46 @@
                 </div>
             </div><!--/.navbar-collapse -->
         </div>
-        </div>
     </div><!--/.container-fluid -->
 
-         <!-- jumbotron-->
+     <!--First Page -->
 
-     <div class="jumbotron">
-        <div id="aboutme">
-         <div class="container text-left">
-             <h1>Hello and Welcome to my Portfolio</h1>
-             <p>I am Lee Xiong and my major is .Net Programming. I speak four languages such as English, Hmong, Lao and Thai.<br>
-                 Current, I work full time and attend to college.However, I hope to graduate and become a good developer</p>
+     <section id="aboutme">
+         <div class="box">
+         <div id="contact">
+             <div id="name">Leemeng Xiong</div>
+             10333 Yates Dr N
+             Brooklyn Park, MN 55443<br>
 
-             <div id="contact">
-                 <strong>Leemeng Xiong</strong><br>
-                 10333 Yates Dr N<br>
-                 Brooklyn Park, MN 55443<br>
-                 <br>
-                 <a id="mobile" href="tel:612-7155-3374" style="color: #463845; font-size: larger;"><i class="fa fa-mobile" aria-hidden="true"></i>
-                       612-7155-3374</a><br>
-                 <a href="mailto:jimmy.x-xiong@outlook.com" style="color: #cd8f0a; font-size: larger;"><i class="fa fa-envelope" aria-hidden="true"></i>
-                      jimmy.x-xiong@outlook.com</a>
-             </div>
-         </div><!-- End container -->
+             <a id="mobile" href="tel:612-7155-3374" style="color: #442946; font-size: larger;"><i class="fa fa-mobile" aria-hidden="true"></i>
+                 612-7155-3374</a><br>
+             <a href="mailto:jimmy.x-xiong@outlook.com" style="color: #cd8f0a; font-size: larger;"><i class="fa fa-envelope" aria-hidden="true"></i>
+                 jimmy.x-xiong@outlook.com</a>
+         </div>
         </div>
-     </div><!-- End jumbotron-->
-
-
+         <div class="section-content">
+             <div class="container-fluid">
+                 <div class="col-md-6">
+                     <div class="about-text">
+                         <h1>Hello and Welcome to my Portfolio</h1>
+                         <p class="lead">I am Lee Xiong and my major is .Net Programming. I speak four languages: English, Hmong, Lao and Thai.
+                             Currently, I work full time while attending college. My goal is to graduate and become a software developer.</p>
+                         <h5>Follow me on</h5>
+                         <a href="https://github.com/leexiong21/portfolio" class="btn btn-sm btn-secondary-outline">
+                             <i class="fa fa-github fa-2x" style="color: black;" aria-hidden="true"></i>Github</a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!--End First Page -->
      <!-- Skills use grid system -->
      <section>
          <div id="skills">
              <div class="container">
-
          <div class="row">
              <h2>Professional Skills and Work Experience</h2>
-             <div class="col-sm-4">
+             <div class="col-md-4">
                  <h3>Computer skills</h3>
                  <ul class="skill">
                  <li>Strongly Computer repair</li>
@@ -134,7 +141,7 @@
                  </ul>
 
              </div>
-             <div class="col-sm-4">
+             <div class="col-md-4">
                  <h3>Software Skills</h3>
                  <ul>
                  <li>Built and installed home computer for video production 4 years.</li>
@@ -147,14 +154,14 @@
                  <li>Microsoft project.</li>
                  <li>Video Record 4 years</li>
                  <li>Basic 3D</li>
-
+                 <li>Good organizational and communication</li>
+                 <li>Excellent problem solving</li>
                  </ul>
              </div>
-             <div class="col-sm-4">
+             <div class="col-md-4">
                  <h3>Menasha Packaging, Brooklyn Park, MN
                   Machine Operator August 2011-Present</h3>
                  <ul>
-
                      <li>Completed relevant documentation.</li>
                      <li>Maintained and cleaned machines in work area.</li>
                      <li>Read company blueprints and followed within instructions and batch records.</li>
@@ -168,10 +175,7 @@
                      <li>Assisted in other areas/departments of the production floor as needed.</li>
                      <li>Set up machine operation information such as speed, size and shape before it begins running.</li>
                      <li>Team work set up machine.</li>
-
-
                  </ul>
-
              </div>
          </div>
         </div>
@@ -179,16 +183,15 @@
      </section> <!-- End skills page -->
 
         <!-- Education -->
-
      <section>
+         <div id="education">
          <div class="container-fluid" style="background-color: #f5fffa;">
         <div class="container">
-            <div id="education">
-                <h3>Education</h3>
+                <h3>School and Education</h3>
                     <div class="card card-block">
                         <blockquote class="card-blockquote">
                             <ul class="fa-ul">
-                                <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> Graduate High School 2003</li>
+                                <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> Graduate High School, Phonesavanh, Laos, 2003.</li>
                                 <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> GPA: 3.8</li>
                                 <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> Comcenter College, Vientiane, Laos (May 2004-May 2008).</li>
                                 <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> GPA: 4.0</li>
@@ -197,16 +200,10 @@
                                 <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> GPA: 4.0</li>
                                 <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> Major: .NET Programmer.</li>
                             </ul>
-                            <footer>
-                                <small class="text-muted">
-                                    Someone famous in <cite title="Source Title">A Shelton Interactive site</cite>
-                                </small>
-                            </footer>
-
                         </blockquote>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="images/Graduation.png" alt="Graduation">
+                        <img class="card-img-top" src="images/Graduation.png" width="400" height="300" alt="Graduation">
                     </div>
             </div><!-- End row -->
         </div>
@@ -214,44 +211,53 @@
      </section> <!-- End Education -->
       <!-- portfolio -->
      <section>
+         <div id="portfolio">
          <div class="container text-center">
-                 <div id="portfolio">
-
                      <h2>Portfolio</h2>
                      <h3>Spring 2016 all Project I have done in this course</h3>
                      <div class="row">
                          <div class="col-md-3">
-                         <div class="thumbnail"><a href="https://github.com/leexiong21/veggies-bootstrap">
+                         <div class="thumbnail"><a href="http://leexiong21.github.io/veggies-bootstrap/">
                              <img src="images/1.JPG" width="400" height="300" alt="1"></a>
-                             <p class="caption">MS.B's Veggies</p><!-- link to github -->
+                             <p class="caption"><strong>MS.B's Veggies</strong></p><p>It about learn how to use
+                                 Bootstrap tools, To design better responsive mobile devices.
+                                 Check it out it looks awesome.</p><!-- link to github -->
                          </div></div>
                          <div class="col-md-3">
-                         <div class="thumbnail"><a href="https://github.com/leexiong21/fan-page">
+                         <div class="thumbnail"><a href="http://leexiong21.github.io/fan-page/">
                              <img src="images/2.JPG" width="400" height="200" alt="2"></a>
-                             <p class="caption">fanpage</p><!-- link to github -->
+                             <p class="caption"><strong>Fanpage</strong></p><p>Good deal is Hmong restaurant, they have many kind of
+                                 Asian foods such as Laab, stir fry, Fry rice, Pho noodle soup.
+                             </p><!-- link to github -->
                          </div></div>
                          <div class="col-md-3">
-                         <div class="thumbnail"><a href="https://github.com/leexiong21/ptCaseStudy">
+                         <div class="thumbnail"><a href="http://leexiong21.github.io/ptCaseStudy/">
                              <img src="images/3.JPG" width="400" height="200" alt="3"></a>
-                             <p class="caption">Ptcase study</p><!-- link to github -->
+                             <p class="caption"><strong>Ptcase study</strong></p><p>
+                                 Pacific Trails Resort is an amazing place to visit.
+                                 Located in California's sunny North Coast, the beautiful ocean is right there for you to enjoy.
+                             </p><!-- link to github -->
                          </div></div>
                          <div class="col-md-3">
-                         <div class="thumbnail"><a href="https://github.com/leexiong21/simple-media">
+                         <div class="thumbnail"><a href="http://leexiong21.github.io/simple-media/">
                              <img src="images/4.JPG" width="400" height="250" alt="4"></a>
-                             <p class="caption">simple media</p><!-- link to github -->
+                             <p class="caption"><strong>Simple media</strong></p><p>"a short video,
+                                 an audio clip,
+                                 an iframe with a youtube video,
+                                 an image styled with the CSS3 Transform property to look like a Polaroid picture"</p><!-- link to github -->
                          </div></div>
                      </div>
-
                  </div>
          </div>
      </section> <!-- End Portfolio -->
 
      <!-- awesome carousel -->
-
-        <div class="container-fluid">
             <section>
-                <h3>Interesting Project</h3>
+
                 <div id="interestingproject">
+                <h2>Interesting Project</h2>
+                    <h3>Gallery</h3>
+
                 <div class="carousel slide" id="awesome-carousel" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#awesome-carousel" data-slide-to="0" class="active"></li>
@@ -274,46 +280,33 @@
                         </div>
                     </div><!-- End Carousel inner -->
                 </div><!-- End Carousel -->
-              </div>
+                </div>
+
             </section>
-        </div> <!-- End awesome Carousel -->
 
-     <!--Volunteer Activity immunity -->
-
-     <!-- The least coming soon -->
-     <div class="container">
-     <div class="row">
-         <div class="col-sm-8">
-             <h3>gallery</h3>
-             <p>Coming soon</p>
-         </div>
-         <div class="col-sm-4">
-             <img src="images/l2.jpg" class="img-responsive" alt="l2">
-         </div>
-     </div>
-     </div>
-  <!-- My footer -->
-
-<div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+       <!-- My footer -->
+    <footer class="footer">
+<div class="navbar navbar-inverse navbar-fixed-bottom">
     <div class="container">
         <div class="navbar-text pull-left">
             <p>Copyright &copy; 2016 Lee Meng Xiong</p>
             <a href="mailto:jimmy.x-xiong@outlook.com" style="color: #c4f1a4;">jimmy.x-xiong@outlook.com</a>
         </div>
         <div class="navbar-text pull-right">
-            <a href="#"><i class="fa fa-facebook-square fa-2x" style="color: red;"></i></a>
-            <a href="#"><i class="fa fa-twitter fa-2x" style="color: red;"></i></a>
-            <a href="#"><i class="fa fa-google-plus fa-2x" style="color: red;"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-2x" style="color: white;"></i></a>
+            <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter-square fa-2x" style="color: white;"></i></a>
+            <a href="https://plus.google.com/collections/featured"><i class="fa fa-google-plus-square fa-2x" style="color: white;"></i></a>
         </div>
     </div>
+
 </div>
-
-
+     </footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
 <!-- Bootstrap JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 </body>
 </html>
+
+

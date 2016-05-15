@@ -1,28 +1,52 @@
 html {
     /* Needed to fix footer at bottom of browser */
-    position: relative;
-    min-height: 100%;
-
+        position: relative;
+        min-height: 100%;
 }
 
-body {
+body { position: relative;
     /* Move down content because of fixed navbar at top */
-    padding-top: 50px;
+        margin-top: 5px;
+        margin-bottom: 60px;
     /* Set margin bottom allow for footer height */
-    margin-bottom: 50px;
-    background-color: #d7ffdc;
+        background-color: #d7ffdc;
 }
 
-h2{background-color: #4784a4;
+.navbar-inverse {
+        background-color: rgba(9, 70, 115, 0.89);
+        border-color: #e5f1a8;
+}
+.navbar-inverse .navbar-nav > li > a {
+        border-left: 1px solid #e5f1a8;
+}
+
+.navbar-inverse .navbar-brand {
+        color: #e5f1a8;
+}
+
+.navbar-inverse .btn {
+        background-color: #e5f1a8;
+        color: rgba(34, 34, 34, 0.99);
+
+}
+.primary-nav-title{color: #e5f1a8;}
+
+section {  width: 100%;}
+
+h1{     background-color: lightseagreen;
+    color:#ffffff ;
     padding: 10px;
-    font-family: Vast Shadow,Lucida Bright ,Georgia,serif;
 }
-h3{background-color: lightseagreen;
+h2     {margin-top: 70px;
+    background-color: #4784a4;
+    padding: 10px;
+    font-family: Vast Shadow,"Palatino Linotype",Georgia,serif;
+}
+h3{     background-color: lightseagreen;
     padding: 10px;
 }
 
-
-footer {
+.footer {
     position: fixed;
     bottom: 0;
     height: 50px;
@@ -32,48 +56,64 @@ footer {
     text-align: center;
     padding: 15px;
 }
-form{color: #e5f1a8;}
 
-
-.navbar-inverse {
-    background-color: rgba(9, 70, 115, 0.89);
-    border-color: #e5f1a8;
+form{   color: #e5f1a8;
 }
 
-.navbar-inverse .navbar-brand {
-    color: #e5f1a8;
+.section-content { margin-top: 78px;
+                    padding: 8rem 3px;
 }
 
-.navbar-inverse .btn {
-    background-color: #e5f1a8;
-    color: #121212;
+#aboutme {  margin-top: 5px;
+            padding-top: 50px;
+            padding-bottom: 125px;
+            color: #ffffff;
+            text-align: left;
+            text-shadow: #222222 1px 1px 1px;
+            background: url("images/leex.jpg") center center no-repeat;
+            background-size: cover;
+
 }
 
-.jumbotron {
-    margin-top: 0;
-    padding-bottom: 25px;
-    color: #ffffff;
-    text-align: left;
-    text-shadow: #2c4b80 3px 3px 4px;
-    background-image: url(images/lee.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.about-text {
+            background: rgba(214, 241, 213, 0.8);
+            color: #094673;
+            padding: 2.875rem;
+}
+.box {      margin-right: 40px; float: right;
+            margin-top:5px;
 }
 
-.jumbotron small{
-    color: #ff3a53;
+#contact {
+              float: right;
+              color: #121212;
+              font-size: 1.3em;
 }
 
-.jumbotron p{
-    font-size: 1.3em;
-    font-weight: bold;
+#name {    color: #1125c0;
+           text-shadow: #222222 1px 2px 3px;
+           font-family: Elephant,"Lucida Bright",Georgia,serif;
+           font-size: 1.6em;
 }
 
-#contact {color: #121212;
-          font-size: 1.3em;
+.caption {font-size: 1.3em;
 }
 
-#skill{margin-top: 45px;}
-#section{margin-top: 50px;}
-.carousel-slide{width: 100%;}
-.ul-skill{font-size: 1.3em;}
+.carousel-slide{ background: center center no-repeat;
+}
+
+.ul-skill{font-size: 1.3em;
+}
+
+#education{ margin-top: 10px;
+            padding-top: 60px;
+}
+
+#portfolio{padding-top: 10px;
+}
+
+#interestingproject{padding-top: 1px;
+            padding-bottom: 20px;
+
+}
+
