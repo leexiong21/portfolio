@@ -34,68 +34,68 @@ body { position: relative;
 section {  width: 100%;}
 
 h1{     background-color: lightseagreen;
-    color:#ffffff ;
-    padding: 10px;
+        color:#ffffff ;
+        padding: 10px;
+        margin-top: 1px;
+
 }
 h2     {margin-top: 70px;
-    background-color: #4784a4;
-    padding: 10px;
-    font-family: Vast Shadow,"Palatino Linotype",Georgia,serif;
+        background-color: #4784a4;
+        padding: 10px;
+        box-shadow: #121212 1px 3px 3px;
+        font-family: Vast Shadow,"Palatino Linotype",Georgia,serif;
 }
 h3{     background-color: lightseagreen;
-    padding: 10px;
+        padding: 10px; margin-bottom: 1px;
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    height: 50px;
-    width: 100%;
-    background-color: #222222;
-    color: #9d9d9d;
-    text-align: center;
-    padding: 15px;
+            position: fixed;
+            bottom: 0;
+            height: 50px;
+            width: 100%;
+            background-color: #222222;
+            color: #9d9d9d;
+            text-align: center;
+            padding: 15px;
 }
 
 form{   color: #e5f1a8;
 }
 
-.section-content { margin-top: 78px;
-                    padding: 8rem 3px;
+.section-content { margin-top: 85px;
+                   padding: 8rem 3px;
 }
-
+#contact {  background: rgba(210, 241, 224, 0.8);
+            padding: 0.975rem;
+            float: right;
+            color: #121212;
+            font-size: 1.3em;
+}
+.box {     margin-right: 1px;
+           padding-top: 10px;
+           float: right;
+           margin-top:5px;
+ }
+#name {    color: rgba(25, 67, 133, 1);
+           text-shadow: #222222 1px 2px 3px;
+           font-family: Elephant,"Lucida Bright",Georgia,serif;
+           font-size: 1.4em;
+  }
 #aboutme {  margin-top: 5px;
             padding-top: 50px;
             padding-bottom: 125px;
             color: #ffffff;
             text-align: left;
             text-shadow: #222222 1px 1px 1px;
-            background: url("images/leex.jpg") center center no-repeat;
+            background: url("images/leexi.jpg") center center no-repeat;
             background-size: cover;
-
 }
-
-.about-text {
-            background: rgba(214, 241, 213, 0.8);
+.about-text {margin-top: 10px;
+            background: rgba(210, 241, 224, 0.8);
             color: #094673;
             padding: 2.875rem;
 }
-.box {      margin-right: 40px; float: right;
-            margin-top:5px;
-}
-
-#contact {
-              float: right;
-              color: #121212;
-              font-size: 1.3em;
-}
-
-#name {    color: #1125c0;
-           text-shadow: #222222 1px 2px 3px;
-           font-family: Elephant,"Lucida Bright",Georgia,serif;
-           font-size: 1.6em;
-}
-
 .caption {font-size: 1.3em;
 }
 
@@ -108,12 +108,17 @@ form{   color: #e5f1a8;
 #education{ margin-top: 10px;
             padding-top: 60px;
 }
-
-#portfolio{padding-top: 10px;
+.card-block {background-color: #efe8fa;
+            padding: 15px;
+            margin-top: 1px;
 }
+#portfolio{background-color: lemonchiffon;
+           padding-top: 10px;
+}
+.thumbnail {margin-top: 8px;
+            box-shadow: #121212 1px 2px 2px;}
 
 #interestingproject{padding-top: 1px;
             padding-bottom: 20px;
-
 }
 
