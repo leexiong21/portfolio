@@ -76,6 +76,7 @@ form{   color: #e5f1a8;
            padding-top: 2px;
            float: right;
            margin-top:1px;
+		box-shadow: #121212 1px 3px 3px;
  }
 #name {    color: rgba(25, 67, 133, 1);
            text-shadow: #222222 1px 2px 3px;
@@ -88,27 +89,29 @@ form{   color: #e5f1a8;
             color: #ffffff;
             text-align: left;
             text-shadow: #222222 1px 1px 1px;
-           /* background: url("images/lee1.jpg") center center no-repeat;*/
+            background: url("images/lee1.jpg") center center no-repeat;
             background-size: cover;
 }
 .about-text {margin-top: 10px;
             background: rgba(210, 241, 224, 0.8);
             color: #094673;
             padding: 2.875rem;
-			width: 630px;
+		box-shadow: #121212 1px 3px 3px;
 }
+
 .caption {font-size: 1.3em;
 }
 
 .carousel-slide{ background: center center no-repeat;
 }
-.carousel-slide1{ background: center center no-repeat;
-}
+
 .ul-skill{font-size: 1.3em;
+		box-shadow: #121212 1px 3px 3px;
 }
 
 #education{ margin-top: 10px;
             padding-top: 60px;
+	
 }
 #history{ margin-top: 1px;
             padding-top: 60px;
@@ -117,6 +120,7 @@ form{   color: #e5f1a8;
 .card-block {background-color: #efe8fa;
             padding: 15px;
             margin-top: 1px;
+		box-shadow: #121212 1px 3px 3px;
 }
 #portfolio{background-color: lemonchiffon;
            padding-top: 10px;
