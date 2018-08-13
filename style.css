@@ -88,26 +88,32 @@ form{   color: #e5f1a8;
             color: #ffffff;
             text-align: left;
             text-shadow: #222222 1px 1px 1px;
-            background: url("images/lee1.jpg") center center no-repeat;
+           /* background: url("images/lee1.jpg") center center no-repeat;*/
             background-size: cover;
 }
 .about-text {margin-top: 10px;
             background: rgba(210, 241, 224, 0.8);
             color: #094673;
             padding: 2.875rem;
+			width: 630px;
 }
 .caption {font-size: 1.3em;
 }
 
 .carousel-slide{ background: center center no-repeat;
 }
-
+.carousel-slide1{ background: center center no-repeat;
+}
 .ul-skill{font-size: 1.3em;
 }
 
 #education{ margin-top: 10px;
             padding-top: 60px;
 }
+#history{ margin-top: 1px;
+            padding-top: 60px;
+}
+
 .card-block {background-color: #efe8fa;
             padding: 15px;
             margin-top: 1px;
